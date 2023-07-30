@@ -1,0 +1,204 @@
+body {
+        
+	font-family: 'Ubuntu', sans-serif;
+
+	background-color: black;
+
+        color: #00BFFF;
+
+    	background-size:cover;
+
+        background-attachment: fixed;
+
+}
+body h1{
+
+	color: #00BFFF;
+	text-shadow: 2px 2px 2px #00BFFF;
+	font-family: 'Roboto', sans-serif;
+	font-size: 50px;
+	font-family: cursive;
+	font-family: 'Cuprum', sans-serif;
+
+}
+.dir {
+	text-align: center;
+	font-size: 30px;
+}
+.dir a{
+	text-decoration: none;
+	color: #00BFFF;
+	text-shadow: 1px 1px 1px #00BFFF;
+}
+.dir a:hover{
+	text-decoration: none;
+	color: #00BFFF;
+}
+a {
+	max-width: 100%;
+	word-wrap: break-word;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+a:hover {
+
+	color: #00BFFF;
+
+	text-decoration: none;
+
+}
+
+table {
+
+width: 100%;
+
+max-width: 100%;
+margin-bottom: 1rem;
+background-color: transparent;
+
+border-collapse: collapse;
+font-size: 30px;
+
+}
+
+
+table, th {
+
+border: 3px solid #FF1493;
+box-sizing: border-box;
+padding: 8px 2px;
+color: #00BFFF;
+text-shadow: 1px 1px 1px #FF1493;
+
+}
+
+
+table, td {
+
+border: 3px solid #FF1493;
+box-sizing: border-box;
+padding: 8px 8px;
+color: #00BFFF;
+
+}
+
+
+table td a {
+
+text-decoration: none;
+color: #00BFFF;
+text-shadow: 1px 1px 1px #FF1493;
+
+}
+
+
+table td a:hover {
+
+text-decoration: none;
+color: #00BFFF;
+
+}
+
+input {
+
+background-color: black;
+font-family: monospace;
+font-size: 15px;
+color: #00BFFF;
+border: 2px solid #FF1493;
+text-shadow: 5px 5px 30px #FF1493;
+box-sizing: border-box;
+width: 100%;
+padding: 10px;
+margin-bottom: 10px;
+
+}
+
+.button1 {
+
+display: inline-block;
+margin: 10px 3px;
+padding: 5px;
+color: #00BFFF;
+background-color: black;
+border-radius: 5px;
+border: 3px solid #FF1493;
+box-shadow: .5px .5px .3px .3px #FF1493;
+box-sizing: border-box;
+text-align: center;
+text-decoration: none;
+
+}
+
+.button1 a {
+
+display: block;
+width: 100%;
+height: 100%;
+padding: 5px;
+color: #00BFFF;
+text-decoration: none;
+box-sizing: border-box;
+
+}
+
+.button1:hover {
+
+text-shadow: 1px 1px 1px #00FF7F;
+box-shadow: .5px .5px .3px .3px #FF1493;
+
+}
+
+textarea {
+
+border: 3px solid #FF1493;
+
+border-radius: 5px;
+box-shadow: 1px 1px 1px 1px #FF1493;
+width: 98%;
+height: 400px;
+padding-left: 10px;
+margin: 10px auto;
+resize: none;
+background: black;
+color: #00BFFF;
+font-family: 'Cuprum', sans-serif;
+font-size: 13px;
+}
+
+@media screen and (max-width: 600px) {
+
+a {
+
+display: block;
+
+width: 100%;
+text-align: center;
+margin-bottom: 10px;
+}
+
+}
+
+
+
+@media screen and (min-width: 768px) {
+
+input {
+
+width: 50%;
+}
+
+}
+
+
+
+@media screen and (max-width: 600px) {
+
+.button1 {
+
+width: 100%;
+height: auto;
+padding: 0;
+}
+
+}
